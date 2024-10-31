@@ -1,0 +1,101 @@
+/* the modal container */
+.pegasaas-modal {
+    background: rgba(0, 0, 0, 0.75);
+    display: none;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+.pegasaas-modal.active {
+    display: block;
+}
+
+/* the modal dialog box */
+.pegasaas-modal .pegasaas-modal-dialog {
+    background: #fff;
+    left: 50%;
+    margin-left: -300px;
+   
+    position: absolute;
+    top: -100%;
+    width: 600px;
+    z-index: 10001;
+}
+
+.pegasaas-modal.active .pegasaas-modal-dialog {
+    top: 10%;
+}
+
+/* the dialog box title */
+
+.pegasaas-modal .pegasaas-modal-header{
+    border-bottom: #eeeeee solid 1px;
+    background: #232C30;
+    padding: 15px 20px;
+    position: relative;
+	color: #fff;
+    margin-bottom: -10px
+}
+.pegasaas-modal .pegasaas-modal-header h4 {
+	background-image: url(../images/icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+	
+    margin: 0;
+    padding: 0;
+	padding-left: 27px; 
+    font-size: 1.2em;
+    font-weight: normal;
+    text-shadow: 0px 0px 0px #fff;
+    letter-spacing: 0.6px;
+    -webkit-font-smoothing: antialiased
+}
+
+
+/* modial dialog body */
+
+.pegasaas-modal .pegasaas-modal-body {
+    background: #fefefe;
+    padding: 20px;
+	padding-bottom: 10px;
+}
+
+
+
+/* modal footer */
+.pegasaas-modal .pegasaas-modal-disclaimer {
+	font-size: 10px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.pegasaas-modal .pegasaas-modal-footer {
+    background: #fbfbfb;
+	background: #232C30;
+    padding: 20px;
+	color: #fff;
+    border-top: 1px solid #eeeeee;
+    text-align: right;
+}
+
+
+.pegasaas-modal .secondary-questions { margin-top: 5px; padding-left: 25px; display: none; }
+.pegasaas-modal .secondary-questions p { margin: 0px; padding: 0px; padding-bottom: 5px; font-size: .9em; }
+
+.pegasaas-modal .secondary-questions ul { margin-left: 25px; }
+.pegasaas-modal li.reason { padding:  0px 10px; }
+.pegasaas-modal li.reason label { margin-left: 5px;  }
+
+.pegasaas-modal li.reason.selected .secondary-questions { display: block; }
+.pegasaas-modal li.reason.selected {  padding: 10px 10px; background-color: #eeeeee; border-radius: 5px; }
+
+.pegasaas-modal li.reason.selected > label {  font-weight: bold; }
+
+
+.pegasaas-modal label { vertical-align: top; }
+
+.pegasaas-modal .secondary-questions input[type='text'] { width: 500px; }
+.pegasaas-modal .secondary-questions textarea { width: 500px; height: 70px;}

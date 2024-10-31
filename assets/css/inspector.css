@@ -1,0 +1,217 @@
+		.pegasaas-feature-box-sidebar select.form-control, 
+			.form-control { max-width: 100%; width: 100%;  }
+			body { padding: 0px; margin: 0px;
+			
+							font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+	  		#developer-inspector {
+				width: 100%;
+		  		height: 100vh;
+			}
+			.admin-bar-container { 
+				color: #ccc;
+				font-size: 13px;
+				font-weight: 400;
+				font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+				line-height: 32px;
+				height: 32px;
+				/* position: fixed; */
+				top: 0;
+				left: 0;
+				width: 100%;
+				min-width: 600px;
+				z-index: 99999;
+				background: #23282d;
+			}
+			
+			.page-admin-bar {
+				color: #fff;
+				font-size: 13px;
+				font-weight: 400;
+				font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+				line-height: 32px;
+				height: 32px;
+				/* position: fixed; */
+				top: 0;
+				left: 0;
+				width: 100%;
+				min-width: 600px;
+				z-index: 99999;
+				background: #0085ba;				
+				
+			}
+			
+			
+			#pegasaas-icon { 
+				background-position: center center;
+				background-image: url(../images/icon.png);
+				background-repeat: no-repeat;
+				width: 22px;
+				height: 32px;
+				vertical-align: top;
+				display: inline-block;
+			}
+			#tool-title {
+				vertical-align: top;
+			}
+			#pegasaas-branding { padding-left: 10px; padding-right: 10px; display: inline-block;}
+			
+			#view-chooser { float: right; }
+			#mode-chooser { float: right; }
+			.tab {
+				box-sizing: border-box; 
+				background-color: #444; 
+				display: inline-block;
+				padding: 0px 20px; 
+				cursor: pointer;
+			}
+						
+			.tab-selected { 
+				color: #fff;	
+			  background-color: #0085BA;
+			}
+			
+			.mode {
+				border-radius: 5px;
+				box-sizing: border-box; 
+				margin: 3px 5px;
+				
+				background-color: rgba(68,68,68, 0.5);; 
+				display: inline-block;
+				padding: 0px 20px; 
+				line-height: 26px;
+				font-size: .8em;
+				cursor: pointer;
+			}
+						
+			.mode-selected { 
+				color: #fff;	
+			  	background-color: rgba(0,133,186, 0.5);
+			}			
+			.preview-container { display: none; }
+			.preview-container.container-active { display: block; }
+			
+			.preview-container iframe { border: 0px; width: 100%; height: calc(100% - 64px);} 
+			.page-admin-bar > div,
+			.page-admin-bar div.metric { display: inline-block; }
+			.page-admin-bar .page-url { vertical-align: top; margin-left: 10px; margin-right: 25px; min-width: 250px; }
+			.page-admin-bar .metric {  height: 32px; vertical-align: top;position:relative; border-left: 1px solid rgba(255,255,255,0.25);  width: 60px; 
+				box-sizing: border-box; text-align: center; padding-top: 2px;}
+			.page-admin-bar .metric:before {
+				font-size: 7pt;
+				position: absolute;
+				top: -11px;
+				left: 1px;
+				width: 60px;
+				text-align: center;
+				color: rgba(255,255,255, 0.50);
+			}
+			.page-admin-bar .metric-pagespeed:before {
+				content: 'PageSpeed';
+			}	
+			.page-admin-bar .metric-fcp:before {
+				content: 'FCP';
+			}	
+			.page-admin-bar .metric-fmp:before {
+				content: 'FMP';
+			}	
+			.page-admin-bar .metric-fci:before {
+				content: 'First CPU Idle';
+			}	
+			.page-admin-bar .metric-si:before {
+				content: 'Speed Index';
+			}	
+			.page-admin-bar .metric-tti:before {
+				content: 'Interactive';
+			}			
+			
+			.configure-button-container { float: right; }
+			.configure-button-container a,
+			.configure-button-container a:focus { text-align: center; height: 32px; width: 32px; display: block; color: #fff; }
+			.configure-button-container a i { line-height: 32px; }
+			.configure-button-container a:hover { color: #ccc; }
+			.mobile-mode .desktop-only { display: none !important; opacity: 0; }
+			.desktop-mode .mobile-only { display: none !important; opacity: 0; }
+			
+
+			
+.mobile-mode .iframe-container { min-height: calc(100% - 115px); text-align: center; padding-top: 25px; padding-bottom: 25px; 
+	background-color: #666; }			
+.mobile-mode .iframe-container .inner {
+	background-color: #ccc;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 405px;
+	margin: auto;
+	
+}
+.mobile-mode .iframe-container .inner:after {
+    
+	width: 55px;
+	height: 55px;
+	background-color: #666;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	display: block;
+	content: ' ';
+	z-index: 999;
+	margin-top: 20px;
+	margin-bottom: -70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mobile-mode .iframe-container .inner:before {
+    
+	width: 15px;
+	height: 15px;
+	background-color: #666;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	display: block;
+	content: ' ';
+	z-index: 999;
+	margin-top: -40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+			.mobile-mode iframe { width: 375px; height: 561px !important;
+			margin: auto;}
+		
+			
+			#config-button { cursor: pointer;}
+			#configuration-settings { 
+				position: absolute;
+				top: 64px; 
+				right: 0px;
+				color: #333;	
+			  	
+				width: 250px;
+				
+				height: calc(100% - 115px);
+				transition: all 2px linear; 
+				overflow: hidden;
+				
+			}
+			#configuration-settings.hidden {  } 
+			
+			#configuration-settings .inner { background-color: #fff; right: 0px; transition: all 1s ease;  position: absolute;  }
+			#configuration-settings.hidden .inner { right: -250px; }
+			.pegasaas-accelerator-subsystem-feature-description { font-size: .8em;}
+
+.button { border: 0px; box-shadow: 0px; border-radius: 3px; margin: 3px; height: 24px; background: #fff; cursor: pointer; }
+.button:hover { background-color: #ccc; }
+.button[disabled] { background-color: #ccc; }
+.button .fa-spinner { display: none; }
+.button.working .fa-spinner { display: inline-block; }
+#save-page-button { float: right; }
+#reload-page-button { float: right; }

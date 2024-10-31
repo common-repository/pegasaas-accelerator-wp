@@ -1,0 +1,4 @@
+<svg  width="2000" height="140" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<path d="m 0 0 a 2000 400 0 0 0 2000 0 v 140 a -2000 -50 0 0 0 -2000 0 v -140" fill="rgba(0, 0, 0, 0.80)"></path>
+	<path d="m 0 140 a 2000 51 0 0 1 2000 0 v -0 h -2000 v 0" fill="rgba(0,0,0,0.50)"></path>
+</svg>

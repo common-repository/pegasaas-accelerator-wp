@@ -1,0 +1,4 @@
+<?php
+// Pegasaas Accelerator
+
+?>

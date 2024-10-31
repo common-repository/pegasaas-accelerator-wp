@@ -1,0 +1,31 @@
+[Fri Feb 21 2020 18:56:49.6213 / dg5pLGGNcHItYQwm / 96.54.232.50] **caching** Excluded because is excluded url.  found '/wp-admin/admin-ajax.php' in 'admin-ajax\.php'
+[Fri Feb 21 2020 18:56:49.6218 / dg5pLGGNcHItYQwm / 96.54.232.50] **caching** Do not Check Cache because is_admin
+[Fri Feb 21 2020 18:56:49.6219 / dg5pLGGNcHItYQwm / 96.54.232.50] **caching** Do not Check Cache because ->disable == true
+[Fri Feb 21 2020 18:56:50.6881 / tK7W1Fk7AQgfFVzK / 96.54.232.50] **caching** Excluded because is excluded url.  found '/wp-admin/admin-ajax.php' in 'admin-ajax\.php'
+[Fri Feb 21 2020 18:56:50.6886 / tK7W1Fk7AQgfFVzK / 96.54.232.50] **caching** Do not Check Cache because is_admin
+[Fri Feb 21 2020 18:56:50.6886 / tK7W1Fk7AQgfFVzK / 96.54.232.50] **caching** Do not Check Cache because ->disable == true
+[Fri Feb 21 2020 18:56:50.6888 / tK7W1Fk7AQgfFVzK / 96.54.232.50] **script_execution_benchmarks** Pegasaas Invoked for /wp-admin/admin-ajax.php (0.13227415084839)
+[Fri Feb 21 2020 18:56:50.7597 / tK7W1Fk7AQgfFVzK / 96.54.232.50] **script_execution_benchmarks** Pegasaas End for /wp-admin/admin-ajax.php (0.20315098762512)
+[Fri Feb 21 2020 18:56:52.3419 / RoJtJAhzdsk9zDU0 / 96.54.232.50] **script_execution_benchmarks** Pegasaas Invoked for /wp-admin/admin-ajax.php (0.145339012146)
+[Fri Feb 21 2020 18:56:52.3979 / RoJtJAhzdsk9zDU0 / 96.54.232.50] **script_execution_benchmarks** Pegasaas End for /wp-admin/admin-ajax.php (0.20133686065674)
+[Fri Feb 21 2020 18:56:55.5034 / UBjmbqJvfpJ55923 / 96.54.232.50] **script_execution_benchmarks** Pegasaas Invoked for /?wp_service_worker=1 (0.11831903457642)
+[Fri Feb 21 2020 18:56:55.6197 / UBjmbqJvfpJ55923 / 96.54.232.50] **script_execution_benchmarks** Pegasaas End for /?wp_service_worker=1 (0.23465204238892)
+[Fri Feb 21 2020 18:57:19.3475 / VT4b58w7EyE59UY2 / 96.54.232.50] **script_execution_benchmarks** Pegasaas Invoked for /wp-admin/admin.php?page=pegasaas-accelerator (0.11863803863525)
+[Fri Feb 21 2020 18:57:19.3871 / mUdAux15Yj4aGaye / 96.54.232.50] **script_execution_benchmarks** Pegasaas Invoked for /wp-admin/admin-ajax.php (0.15828204154968)
+[Fri Feb 21 2020 18:57:19.4927 / mUdAux15Yj4aGaye / 96.54.232.50] **script_execution_benchmarks** Pegasaas End for /wp-admin/admin-ajax.php (0.26386094093323)
+[Fri Feb 21 2020 18:57:19.5806 / VT4b58w7EyE59UY2 / 96.54.232.50] **script_execution_benchmarks** Pegasaas End for /wp-admin/admin.php?page=pegasaas-accelerator (0.35171484947205)
+[Fri Feb 21 2020 18:57:20.6941 / M5jQ6IDfFWABnZXO / 96.54.232.50] **script_execution_benchmarks** Pegasaas Invoked for /wp-admin/admin.php?page=pegasaas-accelerator (0.1218409538269)
+[Fri Feb 21 2020 18:57:20.7349 / Kqi50QoqPTSVk70H / 96.54.232.50] **script_execution_benchmarks** Pegasaas Invoked for /wp-admin/admin.php?page=pegasaas-accelerator (0.16478109359741)
+[Fri Feb 21 2020 18:57:20.8420 / 2XN0QNLJdpDidkSW / 96.54.232.50] **script_execution_benchmarks** Pegasaas Invoked for /wp-admin/admin-ajax.php (0.14431500434875)
+[Fri Feb 21 2020 18:57:20.8752 / M5jQ6IDfFWABnZXO / 96.54.232.50] **script_execution_benchmarks** Pegasaas End for /wp-admin/admin.php?page=pegasaas-accelerator (0.30295491218567)
+[Fri Feb 21 2020 18:57:20.9322 / Kqi50QoqPTSVk70H / 96.54.232.50] **script_execution_benchmarks** Pegasaas End for /wp-admin/admin.php?page=pegasaas-accelerator (0.3620171546936)
+[Fri Feb 21 2020 18:57:20.9371 / 2XN0QNLJdpDidkSW / 96.54.232.50] **script_execution_benchmarks** Pegasaas End for /wp-admin/admin-ajax.php (0.23941802978516)
+[Fri Feb 21 2020 18:57:40.5832 / 3UNm7fhXXTQPl7hd / 96.54.232.50] **script_execution_benchmarks** Pegasaas Invoked for /wp-admin/tools.php?page=crontrol_admin_manage_page (0.15389204025269)
+[Fri Feb 21 2020 18:57:41.1093 / 3UNm7fhXXTQPl7hd / 96.54.232.50] **script_execution_benchmarks** Pegasaas End for /wp-admin/tools.php?page=crontrol_admin_manage_page (0.68002200126648)
+[Fri Feb 21 2020 18:57:41.2560 / eOHNzpt5wemim75E / 207.150.193.26] **script_execution_benchmarks** Pegasaas Invoked for /wp-cron.php?doing_wp_cron=1582311460.8072769641876220703125 (0.12155914306641)
+[Fri Feb 21 2020 18:57:41.3422 / eOHNzpt5wemim75E / 207.150.193.26] **script_execution_benchmarks** Pegasaas End for /wp-cron.php?doing_wp_cron=1582311460.8072769641876220703125 (0.20768308639526)
+[Fri Feb 21 2020 18:57:46.2712 / XOfUQDPtkRDtsOxn / 96.54.232.50] **script_execution_benchmarks** Pegasaas Invoked for /?wp_service_worker=2 (0.12553405761719)
+[Fri Feb 21 2020 18:57:46.3872 / XOfUQDPtkRDtsOxn / 96.54.232.50] **script_execution_benchmarks** Pegasaas End for /?wp_service_worker=2 (0.24154210090637)
+[Fri Feb 21 2020 18:57:55.5845 / JLem1lfbDK03Nt8z / 96.54.232.50] **script_execution_benchmarks** Pegasaas Invoked for /wp-admin/tools.php?page=crontrol_admin_manage_page&action=run-cron&id=pegasaas_rotate_log_files&sig=40cd750bba9870f18aada2478b24840a&next_run=1582329600&_wpnonce=1e15c4fbc6 (0.12898898124695)
+[Fri Feb 21 2020 18:57:55.9271 / JLem1lfbDK03Nt8z / 96.54.232.50] **script_execution_benchmarks** Pegasaas End for /wp-admin/tools.php?page=crontrol_admin_manage_page&action=run-cron&id=pegasaas_rotate_log_files&sig=40cd750bba9870f18aada2478b24840a&next_run=1582329600&_wpnonce=1e15c4fbc6 (0.47154784202576)
+[Fri Feb 21 2020 18:57:56.0757 / rsVOMPYNF1sqtOI1 / 207.150.193.26] **script_execution_benchmarks** Pegasaas Invoked for /wp-cron.php?doing_wp_cron=1582311475.6295840740203857421875 (0.11409187316895)

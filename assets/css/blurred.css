@@ -1,0 +1,393 @@
+.pegasaas-header { 
+	background-color: transparent; 
+	color: #333;
+}
+
+.pegasaas-header { 
+	background-color: transparent;
+	/*
+	background-color: #1FA2FF;
+	background:-webkit-linear-gradient(90deg, #1FA2FF 15%, #05d5ff 100%);
+ background:-o-linear-gradient(90deg, #1FA2FF 15%, #05d5ff 100%);
+ background:linear-gradient(90deg, #1FA2FF 15%, #05d5ff 100%);
+	*/
+	
+}
+
+
+
+.version-placeholder .needs-updating {
+	color: #333;
+
+}
+
+.pegasaas-dashboard {
+	background: transparent;
+	color: #000;
+	/*
+	background-color: #1FA2FF;
+	background:-webkit-linear-gradient(90deg, #1FA2FF 15%, #05d5ff 100%);
+ background:-o-linear-gradient(90deg, #1FA2FF 15%, #05d5ff 100%);
+ background:linear-gradient(90deg, #1FA2FF 15%, #05d5ff 100%);
+	*/
+}
+#pegasaas-scores-wrapper {
+	background-color: #2C98DF;
+	background-image: url(https://img-cdn.pegasaas.io/2a86/img/Site/graphics/pegasaas-light-header-trans---q100.png);
+	/*background-size: cover; */
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin-left: -15px;
+
+}
+
+.pegasaas-dashboard {
+	/* background-color: #2C98DF;
+	background-image: url(https://img-cdn.pegasaas.io/2a86/img/Site/graphics/pegasaas-light-header-trans---q100.png);
+	*/
+	/*background-size: cover; */
+	background-repeat: no-repeat;
+	background-position: bottom;
+	
+}
+
+
+
+.score-success,
+.score-danger,
+.score-warning { color: #fff; }
+
+.pegasaas-disabled .benchmark-dashboard-indicator,
+.dashboard-indicator {
+	background-image: url(../images/dashboard-indicator-dark.png);
+}
+
+
+
+.benchmark-dashboard-indicator,
+.pages-accelerated-dashboard-indicator {
+	background-image: url(../images/benchmark-dashboard-indicator-dark.png);
+}
+
+#pegasaas-accelerator-main-buttons-container {
+	border-bottom: 5px solid #ccc; 
+
+	background-color: #fff;
+	
+}
+
+#pegasaas-accelerator-main-buttons .nav-tabs>li.active>a,
+#pegasaas-accelerator-main-buttons .nav-tabs>li.active>a:focus,
+#pegasaas-accelerator-main-buttons .nav-tabs>li.active>a:hover {
+    color: #333;
+}
+
+
+
+#pegasaas-accelerator-main-controls {
+	color: #333;  
+	
+	background: #fff; 
+}
+
+.pegasaas-feature-box .pegasaas-subsystem-title {
+	background-color: #33383C;
+	background-color: #E0F6FF;
+	background-color: #e4e4e4;
+	color: #444;
+	
+}
+.pegasaas-feature-box { 
+	background-color: rgba(0,0,0,0.02);
+
+}
+
+.pegasaas-feature-box:not(.pegasaas-feature-section-container) {
+	background-color: #fff; 
+}
+.pegasaas-feature-box:not(.pegasaas-feature-section-container) .pegasaas-accelerator-subsystem-feature-description {
+	color: #333;
+}
+
+.pegasaas-feature-box:not(.pegasaas-feature-section-container) .pegasaas-subsystem-title { 
+	background-color: #33383C;
+	background-color: #E0F6FF;
+	background-color: #e4e4e4;
+}
+
+#pegasaas-accelerator-main-controls:after {
+	/*background-image: url(../images/section-top--bottom-light.png);
+	background-image: url(https://img-cdn.pegasaas.io/2a86/img/Site/graphics/pegasaas-light-footer---q100.png);
+	*/
+	background-position: top;
+	background-color: #fff;  
+	background-image: none !important;
+}
+
+#pegasaas-accelerator-main-account .pegasaas-account-info-container { 
+	background-color: #fff; 
+	color: #444; margin-bottom: 10px; 
+}
+
+#pegasaas-api-key-form input[type=text] { 
+	background-color: #fff;  
+	color: #444; 
+}
+
+.mode-switcher .fieldset {
+	background-color: #fff;
+
+	border: 2px solid #555;
+	color: #444;
+
+}
+
+.mode-switcher label { 
+	color: #555;
+}
+.mode-switcher input:checked + label { color: #fff; }
+.mode-switcher .mode-switch {
+ 
+  background-color: #555;
+  
+}
+
+.info-switcher .fieldset {
+	background-color: #2C98DF;
+	background-color: #e4e4e4;
+	
+	border: 0px solid #101516;
+	color: #fff;
+	color: #444;
+
+}
+
+.info-switcher select { 
+	background-color: #e4e4e4; 
+	border: 1px solid #e4e4e4; 
+	color: #444;
+}
+
+.results-indicator-switcher .fieldset {
+	background-color: #e4e4e4;
+	color: #444;
+
+	border: 0px solid #e4e4e4;
+}
+
+.results-indicator-switcher .fieldset .btn-default { color: #e4e4e4; }
+
+
+
+
+#pegasaas-accelerator-main-content-container table.pagespeed-scores >tbody> tr:nth-of-type(odd) { background-color: #fff; color: #444; }
+
+a.external-link-to-page { color: #444; }
+
+.cpcss-form .btn-primary.btn-xs,
+.page-cache-form .btn-primary.btn-xs {
+	background-color: #343E44; 
+	color: #aaa; border-color: #55656F; 
+}
+
+.cpcss-form .btn-primary.active,
+.cpcss-form .btn-primary:active,
+.cpcss-form .open > .dropdown-toggle.btn-primary,
+.page-cache-form .btn-primary.active,
+.page-cache-form .btn-primary:active,
+.page-cache-form .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #55656F;
+    border-color: #55656F;
+}
+
+
+.left-bg { background-color: rgba(0,0,0,0.15);}
+
+.benchmark-dropdown-menu-container .btn-primary.btn-xs { 
+	background-color: #2C98DF; 
+	color: #fff; 
+	border-color : #2C98DF; 
+	margin-top: -2px;
+	line-height: 20px;
+	vertical-align: top;
+	background-color: transparent;
+	color: #333;
+
+}
+.benchmark-dropdown-menu-container .btn-primary.active,
+.benchmark-dropdown-menu-container .btn-primary:active,.benchmark-dropdown-menu-container .open>
+.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #55656F;
+    border-color: #55656F;
+	background-color: transparent;
+	color: #333;
+}
+
+.pagespeed-scores .progress { background-color: #eee; }
+
+#pages-accelerated-chart-container .tooltip-inner {
+	background-image: url(../images/tooltips/accelerated-pages-light.png);
+
+}
+
+#pages-accelerated-chart-container.accelerated-pages-tooltip-lite .tooltip-inner {
+	background-image: url(../images/tooltips/accelerated-pages-light-lite.png);
+}
+
+#non-accelerated-chart-container .tooltip-inner {
+	background-image: url(../images/tooltips/un-accelerated-pagespeed-scores-light.png);
+
+}
+
+
+#accelerated-chart-container .tooltip-inner {
+	background-image: url(../images/tooltips/accelerated-pagespeed-scores-light.png);
+}
+
+.circular-progress-bar div span {
+  background-color: #eee;
+}
+.primary-gauge-reference {  }
+.small-gauge-reference { background-color: #fff; }
+.pgr-l, .pgr-r { background-color: #fff; }
+.pgr-c { color: #fff; }
+.sgr-c { color: #fff; }
+
+
+#pegasaas-accelerator-changelog .accordion .panel-default>.panel-heading { background-color: transparent; border-color: transparent; color: #333; }
+
+#pegasaas-accelerator-faqs .accordion .panel-default>.panel-heading { background-color: transparent; border-color: transparent; color: #333; }
+#pegasaas-accelerator-troubleshooting .accordion .panel-default>.panel-heading { background-color: transparent; border-color: transparent; color: #333; }
+
+.version-placeholder .needs-updating { color: #333; }
+.version-placeholder .needs-updating .fa { color: #ff4400; }
+
+.version-placeholder .up-to-date { color: #333;   }
+
+.version-placeholder .up-to-date a:hover .fa { color: rgb(92, 184, 92);; }
+
+
+
+
+#api-request-email p.email-address-description { color: #fff;  }
+
+.accelerate-type-options p { color: #fff; }
+
+
+.upgrade-placeholder .upgrade-link a {  text-transform: uppercase; font-size: 12px; margin-left: 5px; color: #CCEACC; }
+#pegasaas-scores .initialization-sequence .stay-or-go-container h3 { color: #fff; } 
+
+.no-pages-accelerated-welcome h2 { color: #fff; }
+.setup-content h3 { color: #eee; }
+#pegasaas-accelerator-troubleshooting .accordion .panel-default>.panel-heading { 
+	color: #000;  }
+
+.write-permissions-required h1 { color: #fff; text-transform: uppercase; }
+.write-permissions-required h3 { color: #fff; }
+.write-permissions-required a:not(.btn) { color: #fff; }
+
+.write-permissions-required .btn { border-radius: 0px; border: 0px; padding: 10px 15px; 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20); }
+.write-permissions-required .btn-primary { background-color: #fff; color: #333;  }
+.write-permissions-required .btn-primary:active { background-color: #ddd; color: #333;  }
+
+
+/* 2.2.12 */
+.auto-acceleration-options li { border-color: #fff; background-color: rgba(255,255,255,0.75); color: #666; } 
+
+.auto-acceleration-options li.selected-option { border-color: #fff; background-color: rgba(255,255,255,1); } 
+.setup-content .interface-theme li.selected_interface_theme { border-color: #fff; ;   }
+
+/* 2.2.14 */
+.pegasaas-notice {
+	background-image: url(../images/pegasaas-notice-light.png);
+
+}
+.setup-wizard-title { color: #fff; } 
+
+
+.setup-wizard-form p a { color: #fff; }
+.setup-content h4 { color: #fff; }
+
+.api-key-type li.selected_key_type { background-color: #fff; color: #333; }
+.api-key-type li.selected_key_type #api-request-email p.email-address-description { color: #333; }
+.accelerate-type-options h4.panel-title { color: #333; }
+#initialization-sequence-item-descriptions h3 { color: #000; }
+
+.install-wizard-container,
+.hold-on-prompt
+{  background-color: rgba(0,0,0,0.50);  color: #fff; }
+
+.hold-on-prompt { margin-top: 100px; }
+
+.install-wizard p, 
+.setup-wizard-form p { color: #fff; }
+.setup-wizard-form #pro-api-key-container p { color: #000; }
+.setup-wizard-form #pro-api-key-container p a { color: #333;  }
+.hold-on-prompt p a { color: #ccc; text-decoration: underline; }
+#pro-api-key-container p { color: #fff; }
+
+.setup-wizard-form .btn-primary { background-color: #66D1FF; color: #fff; }
+
+.pgr-c .popover,
+.primary-gauge-title .popover,
+.sgr-c .popover { background-color: #fff; color: #000; }
+
+
+.local-cache-assets .table-bordered > tbody>tr>th { border: 1px solid #ccc; }
+.local-cache-assets .table-bordered > tbody>tr>td  { border: 1px solid #ccc; vertical-align: middle; color: #333;  }
+
+.pagespeed-scores.table-bordered { border: 1px solid #ddd; }
+.pagespeed-scores.table-bordered > tbody>tr>th { color: #333;
+	border: 1px solid #ccc; 
+
+}
+
+.pagespeed-scores.table-bordered > tbody>tr>td { border: 1px solid #ddd; }
+
+
+
+.header-row { background-color: #e4e4e4 !important;  }
+
+.border-left { 
+	border-left: 2px solid #ccc !important ;
+}
+.btn-caret .fa-ellipsis-v { color: #fff; color: #333;}
+
+
+.cpcss-form .dropdown-menu,
+.page-cache-form .dropdown-menu,
+.benchmark-dropdown-menu-container .dropdown-menu { 
+	
+
+	background-color: #eee;
+	color: #333;
+	border-color: #6B7074;
+}
+
+.cpcss-form .dropdown-menu>li>a ,
+.page-cache-form .dropdown-menu>li>a ,
+.benchmark-dropdown-menu-container .dropdown-menu>li>a { color: #333; }
+
+#pegasaas-accelerator-settings-buttons .nav-pills>li:not(.active)>a { color: #444; }
+#pegasaas-accelerator-settings-buttons .nav-pills>li.active>a { background-color: #2C98DF; color: #fff; }
+
+.table-complex-settings .row:nth-of-type(odd) { background-color: #f8f8f8; }
+
+.table-complex-settings .row:first-of-type { background-color: #e4e4e4; border-top: 1px solid #ccc;}
+
+#pegasaas-background {
+
+
+	background-image: url(https://cdn1.pegasaas.io/2a86/img/Site/graphics/pegasaas-light-header-trans-2.png); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #010526;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 100vh;
+	position: absolute;
+	width: calc(100%);
+
+}
